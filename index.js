@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var result = {item: Math.floor(Math.random(0, 101))}
-  console.log(result)
-  return console.log(result())
+  var result = {}
+  result === {item: Math.floor(Math.random(0, 101))}
+  
  // write your code here
 }
 
