@@ -23,7 +23,7 @@ function viewCart() {
   }
   if (cart != []) {
     if (cart.length = 1) {
-      console.log (`In your cart, you have ${[item]} at ${cart[item]}`)
+      console.log (`In your cart, you have '${[item]}' at ${cart[item]}`)
     }
   }
   // write your code here
