@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
   var result = {item: Math.floor(Math.random(0, 101))}
+  console.log(result)
  // write your code here
 }
 
