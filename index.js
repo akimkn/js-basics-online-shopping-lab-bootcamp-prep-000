@@ -22,8 +22,7 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   }
   if (cart.length = 1) {
-    var current = cart
-    console.log (`In your cart, you have ${[current]}`)
+    console.log (`In your cart, you have ${[cart]}`)
     }
   // write your code here
 }
