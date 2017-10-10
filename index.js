@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   var result = {}
   result === { item: Math.floor(Math.random(1, 101))}
-  cart.push(result)
+  cart === [...result]
   console.log(`${item} has been added to your cart.`)
   return cart
  // write your code here
