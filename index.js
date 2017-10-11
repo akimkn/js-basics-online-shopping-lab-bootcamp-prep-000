@@ -22,9 +22,12 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   }
   if (cart.length = 1) {
-    for (var key in cart) {
-      var value = cart[key];
-      console.log (`In your cart, you have ${cart[key]} at "$"${value}.`); break;
+    for (var obj in cart) {
+      var objectN = cart[obj];
+      for (var key in objectN) {
+        var value = objectN[key]
+        console.log (`In your cart, you have ${cart[key]} at "$"${value}.`); break;
+      }
     }
   // write your code here
   }
