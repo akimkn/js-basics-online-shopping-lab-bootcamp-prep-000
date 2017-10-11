@@ -14,7 +14,6 @@ function addToCart(item) {
   cart.push(wishlist)
   console.log(`${item} has been added to your cart.`)
   return cart
- // write your code here
 }
 
 function viewCart() {
@@ -22,16 +21,27 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   }
   if (cart.length = 1) {
-    for (var obj in cart) {
-      var objectN = cart[obj];
-      for (var key in objectN) {
-        var value = objectN[key]
-        console.log (`In your cart, you have ${objectN[key]} at "$"${value}.`); break;
-      }
+    var obj = cart[0]
+    for (var key in obj) {
+      console.log (`In your cart, you have ${key} at "$"${obj[key]}.`); break;
+    }
+  }
+}
+
+/*
+function viewCart() {
+  if (cart = []) {
+    console.log('Your shopping cart is empty.')
+  }
+  if (cart.length = 1) {
+    for (var key in cart) {
+      var value = cart[key];
+      console.log (`In your cart, you have ${cart[key]} at "$"${value}.`); break;
     }
   // write your code here
   }
 }
+*/
 
 function total() {
   var result = 0
