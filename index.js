@@ -28,6 +28,10 @@ function viewCart() {
 }
 
 function total() {
+  var value
+  for (var key in cart) {
+    var value = cart[key]
+  }
   // write your code here
 }
 
