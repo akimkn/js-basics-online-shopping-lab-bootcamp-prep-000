@@ -16,43 +16,32 @@ function addToCart(item) {
   return cart
 }
 
-function viewCart (){
+/*function viewCart (){
 if(cart.length === 0){
  console.log(`Your shopping cart is empty.`)
 }
-else{
+else{*/
      var myString = "In your cart, you have "
        for(var i = 0, l = cart.length; i < l; i++){
             for(var list in cart[i]){
            myString+=`${list} at $${cart[i][list]}`
                if(i!==cart.length-1){
                 myString+=", "
-             }
-             else{
-  myString+="."
-}
-}
-}
- console.log(myString)
-}
-}
+             }*/
 
-/*function viewCart() {
+
+function viewCart() {
   if (cart = []) {
     console.log('Your shopping cart is empty.')
-    return
   }
-  else {
-    for (var i=0; i < cart.length; i++) {
-      var objectN = cart[i]
-      for (var key in objectN) {
-        var price = parseInt(objectN[key])
-        console.log (`In your cart, you have ${key} at ${price}.`)
-        break;
+  else if (cart.length = 1) {
+    for (var i=0; i < 1; i++) {
+      for (var element in cart[i]) {
+        console.log(`In your cart, you have ${element} at $${cart[i][element]}.`)
       }
     }
   }
-}*/
+}
 
 /*
 function viewCart() {
