@@ -23,7 +23,7 @@ function viewCart() {
   if (cart.length = 1) {
     var obj = cart[0]
     for (var key in obj) {
-      console.log (`In your cart, you have ${key} at "$"${obj[key]}.`); break;
+      console.log (`In your cart, you have ${key} at "$"${obj[key]}.`)
     }
   }
 }
