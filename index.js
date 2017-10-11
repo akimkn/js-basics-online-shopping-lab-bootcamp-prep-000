@@ -32,7 +32,7 @@ function total() {
   for (var element in Object.keys(cart)) {
     var objectN = cart[element]
     for (var key in objectN) {
-      var price = objectN[key]
+      var price = parseInt(objectN[key])
     }
     result + price
   }
