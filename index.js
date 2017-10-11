@@ -22,9 +22,12 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
   }
   if (cart.length = 1) {
-    console.log (`In your cart, you have ${cart[item][0]} at ${Object.values(cart)[0]}`)
+    for (var key in cart) {
+      var value = cart[key];
+      console.log (`In your cart, you have ${cart[key]} at ${value}`)
     }
   // write your code here
+  }
 }
 
 function total() {
