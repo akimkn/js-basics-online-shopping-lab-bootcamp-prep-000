@@ -83,4 +83,5 @@ function placeOrder(cardNumber) {
       cart = [];
       break;
   }
+  return
 }
