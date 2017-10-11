@@ -61,36 +61,9 @@ function viewCart() {
     console.log(result)
   }
 }
-    /*var result = "In your cart, you have "
-    for (var i = 0; i < cart.length; i++) {
-      for (var element in cart[i]) {
-        result += `${element} at $${cart[i][element]}`
-        if (i !== cart.length - 1) {
-          result += ", "
-        }
-        else {
-          result += "."
-        }
-      }
-    }
-    console.log(result)
-  }
-}*/
+  
 
-/*
-function viewCart() {
-  if (cart = []) {
-    console.log('Your shopping cart is empty.')
-  }
-  if (cart.length = 1) {
-    for (var key in cart) {
-      var value = cart[key];
-      console.log (`In your cart, you have ${cart[key]} at "$"${value}.`); break;
-    }
-  // write your code here
-  }
-}
-*/
+
 
 function total() {
   var result = 0
