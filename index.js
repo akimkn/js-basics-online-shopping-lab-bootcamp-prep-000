@@ -45,6 +45,7 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty([item])) {
       delete cart[i]
     }
+    break;
   }
   return cart
   // write your code here
