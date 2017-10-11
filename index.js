@@ -24,7 +24,7 @@ function viewCart() {
   if (cart.length = 1) {
     for (var key in cart) {
       var value = cart[key];
-      console.log (`In your cart, you have ${cart[key]} at ${value}`)
+      console.log (`In your cart, you have ${cart[key]} at "$"${value}.`)
     }
   // write your code here
   }
