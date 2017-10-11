@@ -17,11 +17,11 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var result = "In your cart, you have "
   if (cart = []) {
     console.log('Your shopping cart is empty.')
   }
   else {
+    var result = "In your cart, you have "
     for (var i = 0; i < 1; i++) {
       for (var element in cart[i]) {
         result += `${element} at $${cart[i][element]}`
