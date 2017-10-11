@@ -30,7 +30,7 @@ function viewCart() {
 function total() {
   var result = 0
   for (var key in cart) {
-    var value = (cart[key])
+    var value = parseInt(cart[key])
     result === result + value
   }
   return result
