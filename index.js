@@ -24,6 +24,7 @@ function viewCart() {
     for (var i=0; i < 1; i++) {
       for (var element in cart[i]) {
         console.log(`In your cart, you have ${element} at $${cart[i][element]}.`)
+        return
       }
     }
   }
