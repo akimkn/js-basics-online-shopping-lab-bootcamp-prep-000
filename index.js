@@ -21,7 +21,7 @@ function viewCart() {
   if (cart = []) {
     console.log('Your shopping cart is empty.')
   }
-  if (cart.length = 1) {
+  else {
     for (var i = 0; i < 1; i++) {
       for (var element in cart[i]) {
         result += `${element} at $${cart[i][element]}`
