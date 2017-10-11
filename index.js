@@ -40,6 +40,7 @@ function viewCart() {
         }
       }
     }
+    console.log(result)
   }
 }
     /*var result = "In your cart, you have "
