@@ -36,7 +36,7 @@ function viewCart() {
           result += "."
         }
         else {
-          result += "and"
+          result += " and "
         }
       }
     }
