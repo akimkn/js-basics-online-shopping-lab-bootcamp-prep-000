@@ -22,8 +22,8 @@ function viewCart() {
     return
   }
   if (cart.length = 1) {
-    for (var element in Object.keys(cart)) {
-      var objectN = cart[element]
+    for (var i=0; i < cart.length; i++) {
+      var objectN = cart[i]
       for (var key in objectN) {
         var price = parseInt(objectN[key])
         console.log (`In your cart, you have ${key} at ${price}.`)
