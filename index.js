@@ -47,10 +47,10 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       for (var element in cart[i]) {
         result += `${element} at $${cart[i][element]}`
-        if (i === cart.length) {
+        if (i == cart.length) {
           result += '.'
         }
-        else if (i === cart.length - 1) {
+        else if (i == cart.length - 1) {
           result += ", and "
         }
         else {
