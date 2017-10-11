@@ -29,9 +29,12 @@ function viewCart() {
 
 function total() {
   var result = 0
-  for (var key in Object.keys(cart)) {
-    var value = parseInt(cart[key])
-    result + value
+  for (var element in Object.keys(cart)) {
+    var objectN = cart[element]
+    for (var key in objectN) {
+      var price = objectN[key]
+    }
+    result + price
   }
   return result
   // write your code here
