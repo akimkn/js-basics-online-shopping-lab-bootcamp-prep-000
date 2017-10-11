@@ -51,7 +51,7 @@ function viewCart() {
           result += '.'
         }
         else if (i === cart.length - 1) {
-          result += " and "
+          result += ", and "
         }
         else {
           result += ", "
