@@ -45,7 +45,7 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(`${item}`)) {
       cart.splice(i,1)
     }
-  }
+  }; else (console.log('That item is not in your cart.'))
   return cart
   // write your code here
 }
