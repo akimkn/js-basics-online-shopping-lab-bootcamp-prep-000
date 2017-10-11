@@ -43,7 +43,7 @@ function total() {
 function removeFromCart(item) {
   for (var obj in Object.keys(cart)) {
     var objectN = cart[obj]
-    if (objectN.hasOwnProperty([item])) {
+    if (objectN.hasOwnProperty($item)) {
       delete objectN[item]
     }
   }
