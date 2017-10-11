@@ -31,7 +31,7 @@ function total() {
   var result = 0
   for (var key in cart) {
     value = parseInt(cart[key])
-    result + value
+    result = result + value
   }
   return result
   // write your code here
