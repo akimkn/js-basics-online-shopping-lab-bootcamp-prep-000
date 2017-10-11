@@ -45,7 +45,7 @@ function removeFromCart(item) {
     var objectN = cart[obj]
     if (objectN.hasOwnProperty(item)) {
       delete objectN[item]
-  }
+  }}
   // write your code here
 }
 
