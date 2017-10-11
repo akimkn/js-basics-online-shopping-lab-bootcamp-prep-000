@@ -28,9 +28,10 @@ function viewCart() {
 }
 
 function total() {
-  var value = 0
+  var result = 0
   for (var key in cart) {
-    value === value + parseInt(cart[key])
+    value = parseInt(cart[key])
+    result + value
   }
   return value
   // write your code here
