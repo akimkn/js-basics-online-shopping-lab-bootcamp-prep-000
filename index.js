@@ -21,7 +21,7 @@ function viewCart() {
     console.log('Your shopping cart is empty.')
     return
   }
-  if (cart.length = 1) {
+  else {
     for (var i=0; i < cart.length; i++) {
       var objectN = cart[i]
       for (var key in objectN) {
@@ -30,9 +30,6 @@ function viewCart() {
         break;
       }
     }
-  }
-  if (cart.length = 2) {
-    return
   }
 }
 
