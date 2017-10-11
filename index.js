@@ -29,9 +29,9 @@ function viewCart() {
 
 function total() {
   var result = 0
-  for (const key in Object.keys(cart)) {
-    const value = parseInt(cart[key])
-    result === result + value
+  for (var key in Object.keys(cart)) {
+    var value = parseInt(cart[key])
+    result + value
   }
   return result
   // write your code here
