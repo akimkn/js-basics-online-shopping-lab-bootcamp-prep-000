@@ -33,7 +33,7 @@ function total() {
     value = parseInt(cart[key])
     result + value
   }
-  return value
+  return result
   // write your code here
 }
 
