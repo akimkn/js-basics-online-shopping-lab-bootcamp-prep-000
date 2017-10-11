@@ -32,6 +32,7 @@ function total() {
   for (var key in cart) {
     value === value + cart[key]
   }
+  return value
   // write your code here
 }
 
