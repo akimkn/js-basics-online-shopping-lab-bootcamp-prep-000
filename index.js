@@ -26,7 +26,7 @@ function viewCart() {
       var objectN = cart[obj];
       for (var key in objectN) {
         var value = objectN[key]
-        console.log (`In your cart, you have ${cart[key]} at "$"${value}.`); break;
+        console.log (`In your cart, you have ${objectN[key]} at "$"${value}.`); break;
       }
     }
   // write your code here
