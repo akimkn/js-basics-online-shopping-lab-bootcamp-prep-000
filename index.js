@@ -42,6 +42,23 @@ function viewCart() {
     }
     console.log(result)
   }
+  else if (cart.length > 2) {
+    var result = "In your cart, you have "
+    for (var i = 0; i < cart.length; i++) {
+      for (var element in cart[i]) {
+        result += `${element} at $${cart[i][element]}`
+        if (i == cart.length) {
+          result += '.'
+        }
+        else if (i == cart.length - 1) {
+          result += " and "
+        }
+        else {
+          result += ", "
+        }
+      }
+    }
+  }
 }
     /*var result = "In your cart, you have "
     for (var i = 0; i < cart.length; i++) {
