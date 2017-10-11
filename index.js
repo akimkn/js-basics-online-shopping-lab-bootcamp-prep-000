@@ -47,6 +47,7 @@ function removeFromCart(item) {
       delete objectN[item]
     }
   }
+  return cart
   // write your code here
 }
 
