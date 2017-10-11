@@ -28,7 +28,7 @@ function viewCart() {
     }
   }
 }
-    var result = "In your cart, you have "
+    /*var result = "In your cart, you have "
     for (var i = 0; i < cart.length; i++) {
       for (var element in cart[i]) {
         result += `${element} at $${cart[i][element]}`
@@ -42,7 +42,7 @@ function viewCart() {
     }
     console.log(result)
   }
-}
+}*/
 
 /*
 function viewCart() {
