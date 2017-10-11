@@ -33,7 +33,7 @@ function total() {
     var objectN = cart[element]
     for (var key in objectN) {
       var price = parseInt(objectN[key])
-      result === result + price
+      result = result + price
     }
   }
   return result
